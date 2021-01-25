@@ -12,17 +12,16 @@ jobs:
       - uses: actions/checkout@v2
       - name: Build and run benchmarks with Catch2
         run: |
-          cd examples/catch2
           mkdir build && cd build
           cmake -DCMAKE_BUILD_TYPE=Release ..
           cmake --build . --config Release
-          ./Catch2_bench | tee ../benchmark_result.txt
+          ./Catch2_bench | tee benchmark_result.txt
       - name: Store benchmark result
         uses: rhysd/github-action-benchmark@v1
         with:
           name: Catch2 Benchmark
           tool: "catch2"
-          output-file-path: examples/catch2/benchmark_result.txt
+          output-file-path: benchmark_result.txt
           github-token: ${{ secrets.GITHUB_TOKEN }}
           auto-push: true
           # Show alert with commit comment on detecting possible performance regression
