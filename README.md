@@ -1,3 +1,5 @@
+https://bitbacchus.github.io/spectre_benchmarks/dev/bench/
+
 C++ example for benchmarking with [Catch2 Framework][tool]
 ====================================================================
 
