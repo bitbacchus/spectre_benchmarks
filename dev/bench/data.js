@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1611653670584,
+  "lastUpdate": 1611653973507,
   "repoUrl": "https://github.com/bitbacchus/spectre_benchmarks",
   "entries": {
     "Catch2 Benchmark": [
@@ -206,6 +206,58 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20b",
             "value": 21.7444,
             "range": "± 1.00349",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sebastian@hanss.info",
+            "name": "Sebastian Hanß",
+            "username": "bitbacchus"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6c9e7bd3e1e7dcd9a7ba6aeb4a67ee6c56766721",
+          "message": "Update catch2_bench.cpp",
+          "timestamp": "2021-01-26T10:38:39+01:00",
+          "tree_id": "1cf5fc67375ce89aa5179f358cc1ce80ddfc0459",
+          "url": "https://github.com/bitbacchus/spectre_benchmarks/commit/6c9e7bd3e1e7dcd9a7ba6aeb4a67ee6c56766721"
+        },
+        "date": 1611653971767,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 73.376,
+            "range": "± 17.3206",
+            "unit": "ns",
+            "extra": "100 samples\n511 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 21.1791,
+            "range": "± 878.77",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
+          },
+          {
+            "name": "Fibonacci 10a",
+            "value": 197.584,
+            "range": "± 146.108",
+            "unit": "ns",
+            "extra": "100 samples\n185 iterations"
+          },
+          {
+            "name": "Fibonacci 20b",
+            "value": 22.2271,
+            "range": "± 7.76695",
             "unit": "us",
             "extra": "100 samples\n2 iterations"
           }
