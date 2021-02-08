@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1612780606819,
+  "lastUpdate": 1612781109494,
   "repoUrl": "https://github.com/bitbacchus/spectre_benchmarks",
   "entries": {
     "Spectre Benchmark": [
@@ -345,6 +345,44 @@ window.BENCHMARK_DATA = {
             "range": "± 3.92323",
             "unit": "ns",
             "extra": "100 samples\n917 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sebastian@hanss.info",
+            "name": "Sebastian Hanß",
+            "username": "bitbacchus"
+          },
+          "committer": {
+            "email": "sebastian@hanss.info",
+            "name": "Sebastian Hanß",
+            "username": "bitbacchus"
+          },
+          "distinct": true,
+          "id": "6291704823accc71cee71ea1c22b7b17d80aa336",
+          "message": "iter+++++",
+          "timestamp": "2021-02-08T11:41:58+01:00",
+          "tree_id": "ec5cfd14def53f7a1cd9f7cc8f007a850bd49305",
+          "url": "https://github.com/bitbacchus/spectre_benchmarks/commit/6291704823accc71cee71ea1c22b7b17d80aa336"
+        },
+        "date": 1612781108895,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 280.277,
+            "range": "± 230.005",
+            "unit": "ns",
+            "extra": "100 samples\n157 iterations"
+          },
+          {
+            "name": "opt",
+            "value": 460.036,
+            "range": "± 261.508",
+            "unit": "ns",
+            "extra": "100 samples\n128 iterations"
           }
         ]
       }
