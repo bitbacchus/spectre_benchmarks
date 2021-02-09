@@ -5,6 +5,6 @@
 TEST_CASE("Fibonacci") {
 
   // now let's benchmark:
-  BENCHMARK("test1234567890test1234567890test1234567890") { return fib(10); };
+  BENCHMARK("test1234567890test1234567890") { return fib(10); };
 
 }
