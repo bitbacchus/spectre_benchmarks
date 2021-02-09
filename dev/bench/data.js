@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1612862037145,
+  "lastUpdate": 1612862691737,
   "repoUrl": "https://github.com/bitbacchus/spectre_benchmarks",
   "entries": {
     "Catch2 Benchmark": [
@@ -62,6 +62,37 @@ window.BENCHMARK_DATA = {
             "range": "± 2.78815",
             "unit": "ns",
             "extra": "100 samples\n213 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sebastian@hanss.info",
+            "name": "Sebastian Hanß",
+            "username": "bitbacchus"
+          },
+          "committer": {
+            "email": "sebastian@hanss.info",
+            "name": "Sebastian Hanß",
+            "username": "bitbacchus"
+          },
+          "distinct": true,
+          "id": "26ee2719c67e019cc069f74562f1b65719a9a277",
+          "message": "35",
+          "timestamp": "2021-02-09T10:23:55+01:00",
+          "tree_id": "5e13a0a95b2887b34867c15a43a26f87dece15d9",
+          "url": "https://github.com/bitbacchus/spectre_benchmarks/commit/26ee2719c67e019cc069f74562f1b65719a9a277"
+        },
+        "date": 1612862691216,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "test1234567890test1234567890test123",
+            "value": 181.21,
+            "range": "± 50.0927",
+            "unit": "ns",
+            "extra": "100 samples\n181 iterations"
           }
         ]
       }
